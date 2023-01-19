@@ -58,7 +58,6 @@ a{
 
 button {
   cursor: pointer;
-  border: none;
 }
 
 .visually-hidden {
@@ -99,23 +98,17 @@ button {
 
 /* Start */
 
-section {
-  background-color: #84a178;
-}
-
 .about-main {
   position: relative;
 }
 
 .about-pre-title {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
   text-transform: uppercase;
-  color: #fcfcfc;
+  color: var(--text-color);
   margin-bottom: 12px;
   padding-top: 60px;
 }
@@ -125,14 +118,13 @@ section {
   margin-left: auto;
   margin-right: auto;
   font-family: "Seymour One";
-  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 1.27;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #fcfcfc;
+  color: var(--text-color);
   margin-bottom: 32px;
 }
 
@@ -170,14 +162,12 @@ section {
   width: 220px;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.76;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #fcfcfc;
+  color: var(--text-color)
 }
 
 .about-description-item:not(:last-child) {
@@ -195,16 +185,22 @@ section {
   margin-right: auto;
   padding-top: 12px;
   padding-bottom: 12px;
-  background: #f8d24e;
+  background-color: var(--Default-color);
+  border: none;
   border-radius: 10px;
   margin-bottom: 60px;
 }
 
-.about-button-text {
-  font-family: "Montserrat";
-  font-style: normal;
+.about-button:hover,
+.about-button:focus{
+  background-color: var(--hover-color);
+}
+
+
+.about-button-text{
+  font-family: inherit;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
-  color: #000000;
+  color: var(--text-color-btn);
 }
