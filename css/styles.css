@@ -46,6 +46,10 @@ section {
   background-color: #84a178;
 }
 
+.about-main {
+  position: relative;
+}
+
 .about-pre-title {
   font-family: "Montserrat";
   font-style: normal;
@@ -73,10 +77,6 @@ section {
   text-transform: uppercase;
   color: #fcfcfc;
   margin-bottom: 32px;
-}
-
-.test {
-  position: relative;
 }
 
 .background-circle {
