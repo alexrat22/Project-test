@@ -125,7 +125,7 @@ button {
   color: var(--text-color);
 }
 
-.background-circle {
+.about-background-circle {
   width: 280px;
   height: 280px;
   margin-left: auto;
@@ -184,31 +184,23 @@ button {
 }
 
 .about-button {
-  /* position: relative; */
-
+  display: block;
+  width: 164px;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 12px 51px 12px 34px;
-  background-color: var(--Default-color);
+  padding-top: 12px;
+  padding-bottom: 12px;
   color: var(--text-color-btn);
+  background-color: var(--Default-color);
   border: none;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 60px;
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-brauser);
-}
-
-.about-button::after {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  background-color: tomato;
-  background-image: url(../images/icon.svg#icon-twitter);
 }
 
 .about-button:hover,
@@ -218,6 +210,10 @@ button {
 
 .about-button:focus {
   color: var(--text-color);
+}
+
+.about-button-icon{
+  margin-left: 4px;
 }
 
 @media screen and (max-width: 767px) {
@@ -237,7 +233,7 @@ button {
     letter-spacing: 0.06em;
   }
 
-  .background-circle {
+  .about-background-circle {
     width: 330px;
     height: 330px;
     margin-left: 0;
@@ -285,15 +281,8 @@ button {
   }
 
   .about-button {
-    width: 164px;
     margin-left: 0;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: var(--Default-color);
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 60px;
-  }
+      }
 }
 
 @media screen and (min-width: 1200px) {
@@ -305,7 +294,7 @@ button {
     font-size: 36px;
   }
 
-  .background-circle {
+  .about-background-circle {
     width: 490px;
     height: 490px;
     margin-top: 82px;
