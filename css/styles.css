@@ -184,9 +184,13 @@ button {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: var(--Default-color);
+  color: var(--text-color-btn);
   border: none;
   border-radius: 10px;
   margin-bottom: 60px;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--cubic-brauser);
 }
 
 .about-button:hover,
@@ -194,12 +198,15 @@ button {
   background-color: var(--hover-color);
 }
 
+.about-button:focus {
+  color: var(--text-color);
+}
+
 .about-button-text {
   font-family: inherit;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.29;
-  color: var(--text-color-btn);
 }
 
 @media screen and (max-width: 767px) {
@@ -305,5 +312,10 @@ button {
 
   .about-description-item:last-child {
     margin-bottom: 54px;
+  }
+
+  .about-descr-text-desktop {
+    font-size: 16px;
+    line-height: 1.76;
   }
 }
