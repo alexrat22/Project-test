@@ -126,8 +126,8 @@ button {
 }
 
 .background-circle {
-  width: 279px;
-  height: 278px;
+  width: 280px;
+  height: 280px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
@@ -147,13 +147,21 @@ button {
   top: 262px;
   left: 50%;
   transform: translateX(-50%);
-  width: 279px;
-  height: 276px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
-  background-image: url(../images/cow.jpg);
+  background-image: url(../images/michael-martinelli-mobile.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .about-picture {
+    background-image: url(../images/michael-martinelli-mobile@2x.jpg);
+  }
 }
 
 .about-description-text {
@@ -241,6 +249,15 @@ button {
     transform: translateX(0%);
     width: 330px;
     height: 330px;
+    background-image: url(../images/michael-martinelli-tablet.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .about-picture {
+      background-image: url(../images/michael-martinelli-tablet@2x.jpg);
+    }
   }
 
   .about-content {
@@ -298,6 +315,15 @@ button {
     left: 16px;
     width: 490px;
     height: 490px;
+    background-image: url(../images/michael-martinelli-disktop.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .about-picture {
+      background-image: url(../images/michael-martinelli-disktop@2x.jpg);
+    }
   }
 
   .about-description-text {
