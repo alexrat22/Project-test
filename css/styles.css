@@ -193,13 +193,16 @@ button {
 }
 
 .about-button {
+  position: relative;
   display: block;
-  width: 164px;
   font-weight: 600;
   font-size: 14px;
+  text-align: left;
   line-height: 1.29;
   padding-top: 12px;
+  padding-right: 51px;
   padding-bottom: 12px;
+  padding-left: 34px;
   color: var(--text-color-btn);
   background-color: var(--Default-color);
   border: none;
@@ -207,7 +210,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
-  transition-property: color, background-color;
+  transition-property: color, fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic-brauser);
 }
@@ -219,10 +222,13 @@ button {
 
 .about-button:focus {
   color: var(--text-color);
+  fill: var(--text-color);
 }
 
 .about-button-icon {
-  margin-left: 4px;
+  position: absolute;
+  top: 15px;
+  left: 117px;
 }
 
 @media screen and (max-width: 767px) {
