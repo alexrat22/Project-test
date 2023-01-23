@@ -134,7 +134,7 @@ button {
   color: var(--text-color);
 }
 
-.about-content{
+.about-content {
   margin-top: 32px;
 }
 
@@ -176,7 +176,7 @@ button {
   }
 }
 
-.about-list{
+.about-list {
   margin-bottom: 24px;
 }
 
@@ -236,6 +236,8 @@ button {
   }
 }
 
+/* Tablet */
+
 @media screen and (min-width: 768px) {
   .about-title-label {
     font-weight: 800;
@@ -247,10 +249,9 @@ button {
     letter-spacing: 0.06em;
   }
 
-  .about-content{
+  .about-content {
     display: flex;
     margin-top: 72px;
-    
   }
 
   .about-background-circle {
@@ -279,7 +280,7 @@ button {
   }
 
   .about-list {
-    margin-top: 8px;
+    padding-top: 8px;
     margin-bottom: 32px;
   }
 
@@ -297,6 +298,8 @@ button {
   }
 }
 
+/* Desktop */
+
 @media screen and (min-width: 1200px) {
   .about-title-label {
     font-size: 30px;
@@ -306,7 +309,7 @@ button {
     font-size: 36px;
   }
 
-  .about-content{
+  .about-content {
     margin-top: 82px;
   }
 
@@ -333,7 +336,7 @@ button {
   }
 
   .about-list {
-    margin-top: 90px;
+    padding-top: 90px;
     margin-bottom: 54px;
   }
 
