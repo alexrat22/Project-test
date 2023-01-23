@@ -136,7 +136,6 @@ button {
 
 .about-content{
   margin-top: 32px;
-  margin-bottom: 60px;
 }
 
 .about-background-circle {
@@ -251,7 +250,7 @@ button {
   .about-content{
     display: flex;
     margin-top: 72px;
-    margin-bottom: 86px;
+    
   }
 
   .about-background-circle {
@@ -309,7 +308,6 @@ button {
 
   .about-content{
     margin-top: 82px;
-    margin-bottom: 99px;
   }
 
   .about-background-circle {
